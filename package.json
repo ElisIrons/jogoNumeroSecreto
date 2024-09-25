@@ -1,0 +1,21 @@
+{
+  "name": "jogonumerosecreto",
+  "version": "1.0.0",
+  "description": "Foi aprendida a lógica de programação com JavaScript ao criar o jogo do número secreto...",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha testes/**/*.spec.js",
+    "test:playwright": "mocha testes/erroTest.js",
+    "test:selenium": "mocha testes/jogoNumeroSecreto.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "playwright": "^1.47.2"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.25.0"
+  }
+}
